@@ -3,8 +3,10 @@ Given a partially filled 9×9 2D array ‘grid[9][9]’, the goal is to assign d
 
 Using backtracking algorithm, we will try to solve Sudoku problem. When some cell is filled with a digit, it checks whether it is valid or not. When it is not valid, it checks for other numbers. If all numbers are checked from 1-9, and no valid digit found to place, it backtracks to previous option.
 
+<img width="304" alt="SODUKO" src="https://user-images.githubusercontent.com/77485368/128751710-2db725e8-1a60-4a41-bafb-04f98b099295.png">
 
--To solve this, we will follow these steps −
+
+# To solve this, we will follow these steps −
 
     Define a method called isPresentInCol(), this will take call and num
 
@@ -61,3 +63,4 @@ Using backtracking algorithm, we will try to solve Sudoku problem. When some cel
             grid[row, col] := 0
 
     return false
+ 
